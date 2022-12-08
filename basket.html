@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Retail Camping Company</title>
+  </head>
+  <body>
+    <header>
+      <a class="logo" href="./index.html">
+        <img src="./media/logo.png" alt="RCC Logo" />
+      </a>
+      <nav class="nav-lg">
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li>
+            <a href="./equipment.html">Camping Equipment</a>
+          </li>
+          <li><a href="./furniture.html">Furniture</a></li>
+          <li><a href="./reviews.html">Reviews</a></li>
+          <li><a class="active" href="./basket.html">Basket</a></li>
+          <li><a href="./offers.html">Offers and Packages</a></li>
+        </ul>
+      </nav>
+      <nav class="nav-sm" tabindex="0">
+        <div class="menu-btn">
+          <svg
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-6 h-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+            />
+          </svg>
+        </div>
+        <ul>
+          <li class="close-btn-container">
+            <button class="close-btn">&times;</button>
+          </li>
+          <li><a href="./index.html">Home</a></li>
+          <li>
+            <a href="./equipment.html">Camping Equipment</a>
+          </li>
+          <li><a href="./furniture.html">Furniture</a></li>
+          <li><a href="./reviews.html">Reviews</a></li>
+          <li><a class="active" href="./basket.html">Basket</a></li>
+          <li><a href="./offers.html">Offers and Packages</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="basket">
+      <section class="left-basket">
+        <div class="left-basket-title">
+          <h1>Your Basket</h1>
+          <h3>3 Items</h3>
+        </div>
+        <table class="basket-table">
+          <tr>
+            <th class="text-left">Product Details</th>
+            <th>Quantity</th>
+            <th>Total</th>
+          </tr>
+          <tr>
+            <td class="basket-item">
+              <div class="img-container">
+                <img
+                  src="https://i.pinimg.com/originals/f6/e4/74/f6e47487130f04d6954666741f509b1f.jpg"
+                  alt="Img"
+                />
+              </div>
+              <div>
+                <h5>Title</h5>
+                <p>Price</p>
+              </div>
+            </td>
+            <td>
+              <div class="quantity">
+                <button>-</button>
+                <span>1</span>
+                <button>+</button>
+              </div>
+            </td>
+            <td class="total">$100.00</td>
+          </tr>
+          <tr>
+            <td class="basket-item">
+              <div class="img-container">
+                <img
+                  src="https://i.pinimg.com/originals/f6/e4/74/f6e47487130f04d6954666741f509b1f.jpg"
+                  alt="Img"
+                />
+              </div>
+              <div>
+                <h5>Title</h5>
+                <p>Price</p>
+              </div>
+            </td>
+            <td>
+              <div class="quantity">
+                <button>-</button>
+                <span>1</span>
+                <button>+</button>
+              </div>
+            </td>
+            <td class="total">$100.00</td>
+          </tr>
+          <tr>
+            <td class="basket-item">
+              <div class="img-container">
+                <img
+                  src="https://i.pinimg.com/originals/f6/e4/74/f6e47487130f04d6954666741f509b1f.jpg"
+                  alt="Img"
+                />
+              </div>
+              <div>
+                <h5>Title</h5>
+                <p>Price</p>
+              </div>
+            </td>
+            <td>
+              <div class="quantity">
+                <button>-</button>
+                <span>1</span>
+                <button>+</button>
+              </div>
+            </td>
+            <td class="total">$100.00</td>
+          </tr>
+        </table>
+      </section>
+      <section class="right-basket">
+        <h1>Order Summary</h1>
+        <div class="flex-between">
+          <p>ITEMS 3</p>
+          <p>$999.00</p>
+        </div>
+        <p>ADDRESS</p>
+        <input type="text" placeholder="Shipping Address" required />
+        <p>PROMO CODE</p>
+        <input type="text" placeholder="Enter your code" />
+        <hr />
+        <div class="flex-between">
+          <p>Total Cost</p>
+          <p>$999.00</p>
+        </div>
+        <button class="btn">Checkout</button>
+      </section>
+    </main>
+    <footer>
+      <!-- Social Icon -->
+      <div class="social">
+        <a href="#"><img src="./media/facebook.svg" alt="facebook" /></a>
+        <a href="#"><img src="./media/instagram.svg" alt="instagram" /></a>
+        <a href="#"><img src="./media/email.png" alt="email" /></a>
+      </div>
+      <p><strong>Retail Camping Company</strong></p>
+      <p>&copy; Copyright | 2022</p>
+    </footer>
+  </body>
+</html>
