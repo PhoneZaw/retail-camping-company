@@ -10,7 +10,7 @@
   <body>
     <header>
       <a class="logo" href="./index.html">
-        <embed src="./media/logo.png" />
+        <img src="./media/logo.png" alt="logo" />
       </a>
       <nav class="nav-lg">
         <ul>
@@ -56,7 +56,16 @@
       </nav>
     </header>
     <main>
-      <h1>Camping Equipments</h1>
+      <section class="title-banner">
+        <object
+          autostart="true"
+          data="./media/camping_video.mp4"
+          type="video/mp4"
+        >
+          <param name="autoplay" value="true" />
+        </object>
+        <h1>Camping Equipments</h1>
+      </section>
       <!-- Search Btn -->
       <form action="#" class="search">
         <input type="text" placeholder="search" />
@@ -669,6 +678,16 @@
       </section>
     </main>
     <footer>
+      <iframe
+        class="map"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4970707.9982672045!2d-7.083063217855374!3d52.531561268351005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48799bb99ea97837%3A0xae4f37c8e2d46124!2sCamping%20Online%20Ltd!5e0!3m2!1sen!2smm!4v1672307913186!5m2!1sen!2smm"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
       <!-- Social Icon -->
       <div class="social">
         <a href="https://www.facebook.com/"
@@ -683,6 +702,9 @@
       </div>
       <p><strong>Retail Camping Company</strong></p>
       <p>&copy; Copyright | 2022</p>
+      <p class="ref">
+        Reference: <a href="https://www.amazon.com/">amazon.com</a>
+      </p>
     </footer>
   </body>
 </html>

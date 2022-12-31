@@ -14,7 +14,7 @@
   <body>
     <header>
       <a class="logo" href="./index.html">
-        <embed src="./media/logo.png" />
+        <img src="./media/logo.png" alt="logo" />
       </a>
       <nav class="nav-lg">
         <ul>
@@ -59,7 +59,17 @@
       </nav>
     </header>
     <main class="offers">
-      <h1>Offers And Packages</h1>
+      <section class="title-banner">
+        <object
+          autostart="true"
+          data="./media/camping_video.mp4"
+          type="video/mp4"
+        >
+          <param name="autoplay" value="true" />
+          <param name="loop" value="true" />
+        </object>
+        <h1>Offers And Packages</h1>
+      </section>
       <!-- Search Btn -->
       <form action="#" class="search">
         <input type="text" placeholder="search" />
@@ -85,52 +95,6 @@
           <div class="snow-fall">
             <object data="./media/snowfall.gif"></object>
             <object data="./media/snowfall.gif"></object>
-          </div>
-        </div>
-        <div class="card big-card">
-          <div class="img-container">
-            <img src="./media/coleman-sundome.jpg" alt="Coleman Sundome Tent" />
-            <img
-              src="./media/Alocs-Camping-Cookware.jpg"
-              alt="Camping Cookware Set"
-            />
-            <img
-              src="./media/2Pack-Camping-Stool.jpg"
-              alt="2 Pack Camping Stool"
-            />
-            <img src="./media/portable-store.jpg" alt="Kitchen Utensil Set" />
-          </div>
-          <div class="content">
-            <div class="item">
-              <h5>Coleman Dome Tent</h5>
-              <p>$297</p>
-            </div>
-            <div class="item">
-              <h5>Camping Cookware Set</h5>
-              <p>$49.99</p>
-            </div>
-            <div class="item">
-              <h5>2 Pack Camping Stool</h5>
-              <p>$20.99</p>
-            </div>
-            <div class="item">
-              <h5>Kitchen Utensil Set</h5>
-              <p>$39.99</p>
-            </div>
-            <hr />
-            <div class="item">
-              <p>Discount</p>
-              <p>10%</p>
-            </div>
-            <div class="item">
-              <p>Total-Price</p>
-              <h5 class="text-xl">$367.17</h5>
-            </div>
-            <div class="action">
-              <div class="btn add-to-cart-btn">
-                <a href="/basket.html"> Add to Cart </a>
-              </div>
-            </div>
           </div>
         </div>
         <div class="card big-card">
@@ -371,6 +335,16 @@
       </section>
     </main>
     <footer>
+      <iframe
+        class="map"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4970707.9982672045!2d-7.083063217855374!3d52.531561268351005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48799bb99ea97837%3A0xae4f37c8e2d46124!2sCamping%20Online%20Ltd!5e0!3m2!1sen!2smm!4v1672307913186!5m2!1sen!2smm"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
       <!-- Social Icon -->
       <div class="social">
         <a href="https://www.facebook.com/"
@@ -386,6 +360,9 @@
       </div>
       <p><strong>Retail Camping Company</strong></p>
       <p>&copy; Copyright | 2022</p>
+      <p class="ref">
+        Reference: <a href="https://www.amazon.com/">amazon.com</a>
+      </p>
     </footer>
   </body>
 </html>
